@@ -102,7 +102,7 @@ body {
   color: rgb(124, 124, 124);
 }
 .loaded-cart-container{
-  /* margin-top: 100px; */
+  margin-top: 100px;
   display: none;
   padding-top: 30px;
 }
@@ -232,8 +232,14 @@ body {
 }
 
 .minus-svg,
-.plus-svg,
-.zero {
+.plus-svg
+ {
+  margin-top: 7px;
+  font-weight: 700;
+}
+.zero{
+  width: 25px;
+  border: none;
   margin-top: 7px;
   font-weight: 700;
 }
